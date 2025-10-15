@@ -1,4 +1,4 @@
-setwd("~/R_parent")
+setwd("")
 
 library(survival)
 library(lmerTest)
@@ -20,7 +20,7 @@ library(DHARMa)
 library(AICcmodavg)
 library(MuMIn)
 
-parent <- read.csv("lcms_landuse_final.csv")
+parent <- read.csv("comp_androgen_and_GC_profiles_of_male_hellbenders_DATA.csv")
 
 #fixing dataset categories -----
 
@@ -1217,4 +1217,5 @@ figure4b
 ggsave("figure_4b.tiff", plot = figure4b,
        dpi = 300,
        width = 10, height = 9,
+
        units = "in")
