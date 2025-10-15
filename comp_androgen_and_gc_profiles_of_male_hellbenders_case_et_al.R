@@ -33,7 +33,6 @@ parent$type <- as.factor(parent$type)
 parent$year <- as.factor(parent$year)
 parent$pit <- as.factor(parent$pit)
 parent$pit_letter <- as.factor(parent$pit_letter)
-parent$site <- as.factor(parent$site)
 parent$leeches_binomial <- as.factor(parent$leeches_binomial)
 parent$testosterone <- as.numeric(parent$testosterone)
 parent$run <- as.factor(parent$run)
@@ -1219,3 +1218,4 @@ ggsave("figure_4b.tiff", plot = figure4b,
        width = 10, height = 9,
 
        units = "in")
+
